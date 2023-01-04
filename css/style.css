@@ -81,9 +81,9 @@ main {
 .about-me {
     text-align: center;
     margin-top: 130px;
-    background-color: rgba(212, 212, 170, 0.303);
+    background-color: #fff8f3;
     border-radius: 10px;
-    padding: 13px 150px;
+    padding: 130px 150px;
 
 }
 
@@ -94,6 +94,12 @@ main {
     font-weight: 700;
 }
 
+.section-titel{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
 .about-decription {
     color: grey;
     margin-bottom: 30px;
@@ -115,3 +121,31 @@ main {
     color: black;
 
 }
+
+/* What id Do */
+.what-i-do{
+    margin-top: 130px;
+}
+.skill{
+    background:#fff;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skills-container{
+    display: flex;
+    gap:24px
+}
+
+.skill-titel{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: gray;
+}
+
+/* resume section */

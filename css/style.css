@@ -184,3 +184,29 @@ main {
     text-align: center;
     margin-top: 20px;
 }
+
+/* contact style */
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: bisque;
+    padding: 130px 200px;
+}
+.contact .section-titel{
+    text-align: left;
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding:18px 30px;
+}
+
+input{
+    
+}
+
+.contact a{
+    text-decoration: none;
+}
